@@ -32,16 +32,17 @@ Marauder serves as a comprehensive platform for:
 
 ### System Requirements
 - **Python 3.8+**
-- **Tor proxy** running on port 9051
+- **Tor proxy** running on port 9051 (can also use TOR browser)
 - **Linux/macOS** (recommended) or Windows with WSL
 
 ### Tor Setup
 ```bash
 # Ubuntu/Debian
-sudo apt update &amp;&amp; sudo apt install tor
+sudo apt update &&  sudo apt install tor
 
 # Configure Tor for SOCKS proxy
 sudo nano /etc/tor/torrc
+
 # Add these lines:
 SocksPort 9051
 ControlPort 9051
