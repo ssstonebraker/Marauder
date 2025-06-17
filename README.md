@@ -56,19 +56,19 @@ sudo netstat -tlnp | grep 9051
 
 ## Installation
 
-1. Clone Repository
+### Clone Repository
 ```
 git clone https://github.com/SecOpsEng/Marauder.git
 cd Marauder
 ```
 
-2. Create Virtual Environment
+### Create Virtual Environment
 ```
 python3 -m venv marauder_env
 source marauder_env/bin/activate  # Linux/Mac
 # marauder_env\Scripts\activate   # Windows
 ```
-3. Install Dependencies
+### Install Dependencies
 ```
 pip install --upgrade pip
 pip install -r requirements.txt
